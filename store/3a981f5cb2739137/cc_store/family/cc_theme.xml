@@ -153,408 +153,1929 @@
 	    <choice>0x360202</choice>
 	    <choice>0x000000</choice>
 	</color>
-        <facial id="head_talk_a" name="Talk neutral A" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="default" />
-		<selection type="eyebrow" state_id="talk" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="talk_a" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
+    <facial id="head_talk_a" name="Talk neutral a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="talk"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_a"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_b" name="Talk neutral b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_b"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_angry" name="Talk angry" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_happy" name="Talk happy" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_sad" name="Talk sad" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sad"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_happy" name="Happy" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_tired_happy" name="Tiredly happy" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_sad" name="Sad" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sad"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_pensive" name="Pensive" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_blue" name="Blue" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sad"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_angry" name="Angry" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_neutral" name="Neutral a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_neutral_b" name="Neutral b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_confident" name="Confident" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cool" name="Cool" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_determined" name="Determined" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_laugh" name="Laughing a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_laugh_b" name="Laughing b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_tired_laugh" name="Laughing tiredly" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_think_laugh" name="Laughing while thinking" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cry" name="Crying a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="cry"/>
+        <selection type="eyebrow" state_id="cry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="cry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+	<facial id="head_cry_b" name="Crying b" enable="Y">
+		<selection type="beard" state_id="default"/>
+		<selection type="ear" state_id="default"/>
+		<selection type="eye" state_id="cry"/>
+		<selection type="eyebrow" state_id="sad"/>
+		<selection type="facedecoration" state_id="default"/>
+		<selection type="faceshape" state_id="default"/>
+		<selection type="glasses" state_id="default"/>
+		<selection type="hair" state_id="default"/>
+		<selection type="mouth" state_id="sad"/>
+		<selection type="mustache" state_id="default"/>
+		<selection type="nose" state_id="default"/>
 	</facial>
-	<facial id="head_talk_b" name="Talk neutral B" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="default" />
-		<selection type="eyebrow" state_id="default" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="talk_b" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
+	<facial id="head_hurt" name="Hurt" enable="Y">
+		<selection type="beard" state_id="default"/>
+		<selection type="ear" state_id="default"/>
+		<selection type="eye" state_id="happy"/>
+		<selection type="eyebrow" state_id="angry"/>
+		<selection type="facedecoration" state_id="default"/>
+		<selection type="faceshape" state_id="default"/>
+		<selection type="glasses" state_id="default"/>
+		<selection type="hair" state_id="default"/>
+		<selection type="mouth" state_id="cry"/>
+		<selection type="mustache" state_id="default"/>
+		<selection type="nose" state_id="default"/>
 	</facial>
-	<facial id="head_talk_angry" name="Talk angry" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="angry" />
-		<selection type="eyebrow" state_id="angry" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="talk_angry" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
+    <facial id="head_shocked" name="Shocked a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="shock"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_shocked2" name="Shocked b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="surprised"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="shock"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_what_say" name="What did you say?!" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_surprised" name="Surprised a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="surprised"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="surprised"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_surprised_b" name="Surprised b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="surprised"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_thinking" name="Thinking a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_thinking2" name="Thinking b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_thinking_kissb" name="Thinking - kissing b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="taunt"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_thinking_kissa" name="Thinking - kissing a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="taunt"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_sick" name="Sick" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sick"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_drunk" name="Drunk in love" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_throw_up" name="Throwing up" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="shock"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_asleep" name="Asleep" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_yawn" name="Yawn a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="yawn"/>
+        <selection type="eyebrow" state_id="yawn"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="yawn"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_yawn_b" name="Yawn b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="yawn"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="yawn"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_ache" name="Headache" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_chewing" name="Chewing" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="chewing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_chewing_serious" name="Chewing - serious" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="chewing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_disgusted_a" name="Disgusted a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_disgusted_c" name="Disgusted c" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cringe" name="Cringe a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cringe_b" name="Cringe b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cringe_c" name="Cringe c" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_schemeing" name="Scheming a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="schemeing"/>
+        <selection type="eyebrow" state_id="schemeing"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="schemeing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_schemeing_b" name="Scheming b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="surprised"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_schemeing_eyes_closeda" name="Scheming - eyes closed a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="schemeing"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="schemeing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_schemeing_eyes_closedb" name="Scheming - eyes closed b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="surprised"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_cry" name="Talk while crying" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="cry"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_taunt" name="Taunt a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="taunt"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_taunt_b" name="Taunt b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="taunt"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_adore" name="Adoring" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sad"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_schemeing_love" name="Scheming in love" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sad"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="schemeing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_loved" name="Loved" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sad"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cant_help_it" name="Can't help it!" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_sing" name="Singing" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_sing_excited" name="Singing excitedly" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+	<facial id="head_so_beautiful" name="So beautiful!" enable="Y">
+		<selection type="beard" state_id="default"/>
+		<selection type="ear" state_id="default"/>
+		<selection type="eye" state_id="cry"/>
+		<selection type="eyebrow" state_id="sad"/>
+		<selection type="facedecoration" state_id="default"/>
+		<selection type="faceshape" state_id="default"/>
+		<selection type="glasses" state_id="default"/>
+		<selection type="hair" state_id="default"/>
+		<selection type="mouth" state_id="default"/>
+		<selection type="mustache" state_id="default"/>
+		<selection type="nose" state_id="default"/>
 	</facial>
-	<facial id="head_talk_happy" name="Talk happy" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="happy" />
-		<selection type="eyebrow" state_id="happy" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="talk_happy" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
+	<facial id="head_not_nice" name="That's not nice!" enable="Y">
+		<selection type="beard" state_id="default"/>
+		<selection type="ear" state_id="default"/>
+		<selection type="eye" state_id="angry"/>
+		<selection type="eyebrow" state_id="angry"/>
+		<selection type="facedecoration" state_id="default"/>
+		<selection type="faceshape" state_id="default"/>
+		<selection type="glasses" state_id="default"/>
+		<selection type="hair" state_id="default"/>
+		<selection type="mouth" state_id="shock"/>
+		<selection type="mustache" state_id="default"/>
+		<selection type="nose" state_id="default"/>
 	</facial>
-	<facial id="head_talk_sad" name="Talk sad" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="sad" />
-		<selection type="eyebrow" state_id="sad" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="talk_sad" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
+    <facial id="head_angrily_shocked" name="Angrily shocked" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="shock"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_annoyed" name="Annoyed a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_annoyed_b" name="Annoyed b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_awkward_shocked" name="Awkwardly shocked" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="shock"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_badass" name="Badass" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_bored" name="Bored" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="yawn"/>
+        <selection type="eyebrow" state_id="yawn"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cachinnate" name="Cachinnating" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_chewing_angry" name="Chewing - angry" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="chewing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_chewing_delicious" name="Chewing - delicious a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="chewing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_chewing_deliciousb" name="Chewing - delicious b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="chewing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_chewing_cold" name="Chewing - cold" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="chewing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_chewing_disgusted_a" name="Chewing - disgusted a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="chewing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_chewing_disgusted_b" name="Chewing - disgusted b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="chewing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_chewing_think" name="Chewing - thinking" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="chewing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cold" name="Cold" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_sorry" name="Sorry" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_confused" name="Confused" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cry_joy" name="Crying with joy a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="cry"/>
+        <selection type="eyebrow" state_id="cry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cry_joy_b" name="Crying with joy b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="cry"/>
+        <selection type="eyebrow" state_id="cry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cry_joy_c" name="Crying with joy c" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="cry"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_cry_delight" name="Crying with delight" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="cry"/>
+        <selection type="eyebrow" state_id="cry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="surprised"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_desperate" name="Desperate" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="shock"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+	<facial id="head_whimper" name="Whimpering" enable="Y">
+		<selection type="beard" state_id="default"/>
+		<selection type="ear" state_id="default"/>
+		<selection type="eye" state_id="sad"/>
+		<selection type="eyebrow" state_id="sad"/>
+		<selection type="facedecoration" state_id="default"/>
+		<selection type="faceshape" state_id="default"/>
+		<selection type="glasses" state_id="default"/>
+		<selection type="hair" state_id="default"/>
+		<selection type="mouth" state_id="cry"/>
+		<selection type="mustache" state_id="default"/>
+		<selection type="nose" state_id="default"/>
 	</facial>
-        <facial id="head_talk_shocked" name="Talk shocked" enable="Y">
-                <selection type="beard" state_id="default"/>
-                <selection type="ear" state_id="default"/>
-                <selection type="eye" state_id="shock"/>
-                <selection type="eyebrow" state_id="shock"/>
-                <selection type="facedecoration" state_id="default"/>
-                <selection type="faceshape" state_id="default"/>
-                <selection type="glasses" state_id="default"/>
-                <selection type="hair" state_id="default"/>
-                <selection type="mouth" state_id="talk_sad"/>
-                <selection type="mustache" state_id="default"/>
-                <selection type="nose" state_id="default"/>
-        </facial>
-        <facial id="head_talk_sad" name="Talk sad" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="sad" />
-		<selection type="eyebrow" state_id="sad" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="talk_sad" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_happy" name="Happy" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="happy" />
-		<selection type="eyebrow" state_id="happy" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="happy" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-        <facial id="head_lookdown" name="Look down" enable="Y">
-                <selection type="beard" state_id="default"/>
-                <selection type="ear" state_id="default"/>
-                <selection type="eye" state_id="look_down"/>
-                <selection type="eyebrow" state_id="default"/>
-                <selection type="facedecoration" state_id="default"/>
-                <selection type="faceshape" state_id="default"/>
-                <selection type="glasses" state_id="default"/>
-                <selection type="hair" state_id="default"/>
-                <selection type="mouth" state_id="default"/>
-                <selection type="mustache" state_id="default"/>
-                <selection type="nose" state_id="default"/>
-        </facial>	
-	<facial id="head_sad" name="Sad" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="sad" />
-		<selection type="eyebrow" state_id="sad" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="sad" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_angry" name="Angry" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="angry" />
-		<selection type="eyebrow" state_id="angry" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="angry" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_neutral" name="Neutral" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="default" />
-		<selection type="eyebrow" state_id="default" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="default" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_neutral" name="Neutral" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="default" />
-		<selection type="eyebrow" state_id="default" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="default" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_cry" name="Cry" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="cry" />
-		<selection type="eyebrow" state_id="cry" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="cry" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_shocked" name="Shocked" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="shock" />
-		<selection type="eyebrow" state_id="shock" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="shock" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-        <facial id="head_wide" name="Open wide" enable="Y">
-    		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="default" />
-		<selection type="eyebrow" state_id="default" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="yawn" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-        <facial id="head_furious" name="Furious" enable="Y">
-    		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="shock" />
-		<selection type="eyebrow" state_id="angry" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="angry" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-        <facial id="head_sing" name="Singing" enable="Y">
-                <selection type="beard" state_id="default"/>
-                <selection type="ear" state_id="default"/>
-                <selection type="eye" state_id="asleep"/>
-                <selection type="eyebrow" state_id="default"/>
-                <selection type="facedecoration" state_id="default"/>
-                <selection type="faceshape" state_id="default"/>
-                <selection type="glasses" state_id="default"/>
-                <selection type="hair" state_id="default"/>
-                <selection type="mouth" state_id="talk_happy"/>
-                <selection type="mustache" state_id="default"/>
-                <selection type="nose" state_id="default"/>
-        </facial>
-        <facial id="head_sing_excited" name="Singing excitedly" enable="Y">
-                <selection type="beard" state_id="default"/>
-                <selection type="ear" state_id="default"/>
-                <selection type="eye" state_id="asleep"/>
-                <selection type="eyebrow" state_id="sad"/>
-                <selection type="facedecoration" state_id="default"/>
-                <selection type="faceshape" state_id="default"/>
-                <selection type="glasses" state_id="default"/>
-                <selection type="hair" state_id="default"/>
-                <selection type="mouth" state_id="laugh"/>
-                <selection type="mustache" state_id="default"/>
-                <selection type="nose" state_id="default"/>
-        </facial>
-        <facial id="head_laugh" name="Laugh" enable="Y">
-                <selection type="beard" state_id="default" />
-                <selection type="ear" state_id="default" />
-                <selection type="eye" state_id="happy" />
-                <selection type="eyebrow" state_id="happy" />
-                <selection type="facedecoration" state_id="default" />
-                <selection type="faceshape" state_id="default" />
-                <selection type="glasses" state_id="default" />
-                <selection type="hair" state_id="default" />
-                <selection type="mouth" state_id="laugh" />
-                <selection type="mustache" state_id="default" />
-                <selection type="nose" state_id="default" />
-        </facial>
-	<facial id="head_surprised" name="Surprised" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="shock" />
-		<selection type="eyebrow" state_id="surprised" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="surprised" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_thinking" name="Thinking" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="thinking" />
-		<selection type="eyebrow" state_id="sad" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="default" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_sick" name="Sick" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="sick" />
-		<selection type="eyebrow" state_id="sick" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="sick" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_asleep" name="Asleep" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="asleep" />
-		<selection type="eyebrow" state_id="default" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="default" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_yawn" name="Yawn" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="yawn" />
-		<selection type="eyebrow" state_id="yawn" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="yawn" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_chewing" name="Chewing" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="default" />
-		<selection type="eyebrow" state_id="default" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="chewing" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_disgusted" name="Disgusted" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="sick" />
-		<selection type="eyebrow" state_id="disgusted" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="sad" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-        <facial id="head_concerned" name="Concerned" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="default" />
-		<selection type="eyebrow" state_id="default" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="sad" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_schemeing" name="Schemeing" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="schemeing" />
-		<selection type="eyebrow" state_id="schemeing" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="schemeing" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_talk_cry" name="Talk while crying" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="cry" />
-		<selection type="eyebrow" state_id="sad" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="talk_sad" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
-	</facial>
-	<facial id="head_taunt" name="Taunt" enable="Y">
-		<selection type="beard" state_id="default" />
-		<selection type="ear" state_id="default" />
-		<selection type="eye" state_id="angry" />
-		<selection type="eyebrow" state_id="angry" />
-		<selection type="facedecoration" state_id="default" />
-		<selection type="faceshape" state_id="default" />
-		<selection type="glasses" state_id="default" />
-		<selection type="hair" state_id="default" />
-		<selection type="mouth" state_id="taunt" />
-		<selection type="mustache" state_id="default" />
-		<selection type="nose" state_id="default" />
+    <facial id="head_dreaming_a" name="Dreaming a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_dreaming_b" name="Dreaming b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_evillaugh" name="Evil laugh" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_laugh_disgust" name="Laughing with disgust" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_evil" name="Evil a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_evil_b" name="Evil b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_evil" name="Talk evil" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_a"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_evilsmile" name="Evil smile" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_evil_think" name="Evil thinking" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="schemeing"/>
+        <selection type="eyebrow" state_id="schemeing"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_jackpot" name="Jackpot a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="schemeing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_jackpot_b" name="Jackpot b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="schemeing"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_furious" name="Furious" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_frightened" name="Frightened" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="surprised"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_frustrated" name="Frustrated" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="shock"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_in_love" name="In Love a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="schemeing"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_in_love2" name="In Love b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_did_fart" name="Did somebody fart?" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="schemeing"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sick"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_irritated" name="Irritated" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_jealous" name="Jealous" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_kiss" name="Kissing" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="taunt"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_lick" name="Licking" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="taunt"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_lying" name="Lying a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="schemeing"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_lying_b" name="Lying b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="schemeing"/>
+        <selection type="eyebrow" state_id="schemeing"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_moveeyes" name="Moving eyes" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_naughty" name="Naughty" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_naughty_yawn" name="Naughty yawn" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="yawn"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_nervous" name="Nervous" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_afraid" name="Afraid" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sad"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_noticed" name="Noticed" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_openmouth" name="Opening mouth" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="yawn"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_pleased" name="Pleased" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_roll_eyes" name="Rolling over eyes" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_serious" name="Serious a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_disgusted_b" name="Disgusted b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_serious_b" name="Serious b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_shy" name="Shy" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_slightsmile" name="Slight smile" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_smirk" name="Smirking" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_snoring" name="Snoring a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="yawn"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_snoring_b" name="Snoring b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="yawn"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="yawn"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_snub" name="Snub" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_suspicious" name="Suspicious a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_suspicious2" name="Suspicious b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="schemeing"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_badass" name="Talk badass" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_confused" name="Talk confused" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_cool" name="Talk cool" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_disgusted" name="Talk disgusted" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_frightened" name="Talk frightened" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="surprised"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_furious" name="Talk furious" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_schemeing" name="Talk schemeing" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="schemeing"/>
+        <selection type="eyebrow" state_id="schemeing"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_serious" name="Talk serious" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_angry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+   <facial id="head_talk_shocked" name="Talk shocked" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_surprised" name="Talk surprised" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="surprised"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_suspicious" name="Talk suspicious" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_talk_thinking" name="Talk while thinking" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="talk_b"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_thirsty" name="Thirsty a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="cry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_thirsty_b" name="Thirsty b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="cry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="cry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_dehydrated" name="Dehydrated" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="cry"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_thoughtful" name="Thoughtful" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_tired" name="Tired" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_unconscious" name="Unconscious" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sick"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_hate_mondays" name="I hate Mondays!" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sick"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_worried" name="Worried a" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_worried_b" name="Worried b" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
 	</facial>
     <bodyshape id="adam" name="Adam" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="male">
         <default_char>
