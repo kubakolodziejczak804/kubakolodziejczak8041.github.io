@@ -19171,6 +19171,8 @@
   <sound id="supermarket_ambience_loop_02_a.mp3" name="Ambience - Supermarket" downloadtype="progressive" subtype="soundeffect" duration="13322" enable="Y" is_premium="N" aid="27736" money="0" sharing="0"/>
   <sound id="telephony_type_01_keypad_tone_pound.mp3" name="FX - Keypad" downloadtype="progressive" subtype="soundeffect" duration="157" enable="Y" is_premium="N" aid="27737" money="0" sharing="0"/>
   <sound id="thunder_clap_09.mp3" name="FX - Thunder" downloadtype="progressive" subtype="soundeffect" duration="6217" enable="Y" is_premium="N" aid="27738" money="0" sharing="0"/>
+  <sound id="Adam_Running.mp3" name="Adam Running" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="31423" money="0" sharing="0"/>
+  <sound id="Adam_Walking.mp3" name="Adam Walking" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31406" money="0" sharing="0"/>
   <sound id="tire_skid_squeal_07.mp3" name="FX - Tire squeal" downloadtype="progressive" subtype="soundeffect" duration="810" enable="Y" is_premium="N" aid="27739" money="0" sharing="0"/>
   <sound id="toothbrush_manual_01_30_loop.mp3" name="FX - Toothbrush" downloadtype="progressive" subtype="soundeffect" duration="30380" enable="Y" is_premium="N" aid="27740" money="0" sharing="0"/>
   <sound id="train_station_ambience_01_120_loop.mp3" name="Ambience - Train station" downloadtype="progressive" subtype="soundeffect" duration="119197" enable="Y" is_premium="N" aid="27741" money="0" sharing="0"/>
