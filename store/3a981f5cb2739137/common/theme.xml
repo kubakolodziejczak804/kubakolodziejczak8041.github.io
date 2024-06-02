@@ -19173,6 +19173,8 @@
   <sound id="thunder_clap_09.mp3" name="FX - Thunder" downloadtype="progressive" subtype="soundeffect" duration="6217" enable="Y" is_premium="N" aid="27738" money="0" sharing="0"/>
   <sound id="Adam_Running.mp3" name="Adam Running" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="31423" money="0" sharing="0"/>
   <sound id="Adam_Walking.mp3" name="Adam Walking" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31406" money="0" sharing="0"/>
+  <sound id="Eve-Walking.mp3" name="Eve Walking" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31407" money="0" sharing="0"/>
+  <sound id="Eve-Running.mp3" name="Eve Running" downloadtype="progressive" subtype="soundeffect" duration="4598" enable="Y" is_premium="N" aid="31424" money="0" sharing="0"/>
   <sound id="tomp3.cc - Beating Sound Effects.mp3" name="Beating Up" downloadtype="progressive" subtype="soundeffect" duration="13104" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
   <sound id="tomp3.cc - Funny vomit sound effect Reuploaded.mp3" name="Vomiting" downloadtype="progressive" subtype="soundeffect" duration="3762" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
   <sound id="tomp3.cc - Vomiting sound effect.mp3" name="Vomiting 2" downloadtype="progressive" subtype="soundeffect" duration="9613" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
