@@ -3018,6 +3018,7 @@
   <prop id="Wrapper_Offline_logo.svg.png" name="Wrapper Offline Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9048" money="0" sharing="0"/>
   <prop id="Wrapper Offline Icon.png" name="Wrapper Offline Icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9049" money="0" sharing="0"/>
   <prop id="list_logo.png" name="W:OR" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9050" money="0" sharing="0"/>
+  <prop id="channels4_profile.jpg" name="Kuba Kolodziejczak PFP" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9051" money="0" sharing="0"/>
   <prop id="bedroom_lamp.swf" name="Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8932" money="0" sharing="0"/>
   <prop id="msp_bedroom_blanket" name="blanket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bedroom_blanket_bedroom_blanket_1.swf" enable="Y" is_premium="N" aid="8933" money="0" sharing="0">
     <state id="msp_bedroom_blanket_bedroom_blanket_1.swf" name="single" enable="Y" default="Y"/>
