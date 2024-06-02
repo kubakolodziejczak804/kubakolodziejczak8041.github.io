@@ -19178,6 +19178,8 @@
   <sound id="tomp3.cc - Beating Sound Effects.mp3" name="Beating Up" downloadtype="progressive" subtype="soundeffect" duration="13104" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
   <sound id="tomp3.cc - Funny vomit sound effect Reuploaded.mp3" name="Vomiting" downloadtype="progressive" subtype="soundeffect" duration="3762" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
   <sound id="tomp3.cc - Vomiting sound effect.mp3" name="Vomiting 2" downloadtype="progressive" subtype="soundeffect" duration="9613" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+  <sound id="audio.destroy.mp3" name="Scary (LOUD)" downloadtype="progressive" subtype="soundeffect" duration="3555" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+  <sound id="audio.destroy (1).mp3" name="Eric (LOUD)" downloadtype="progressive" subtype="soundeffect" duration="137979" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
   <sound id="tire_skid_squeal_07.mp3" name="FX - Tire squeal" downloadtype="progressive" subtype="soundeffect" duration="810" enable="Y" is_premium="N" aid="27739" money="0" sharing="0"/>
   <sound id="keyboard-typing-5997.mp3" name="Keyboard Typing" downloadtype="progressive" subtype="soundeffect" duration="15600" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
   <sound id="toothbrush_manual_01_30_loop.mp3" name="FX - Toothbrush" downloadtype="progressive" subtype="soundeffect" duration="30380" enable="Y" is_premium="N" aid="27740" money="0" sharing="0"/>
