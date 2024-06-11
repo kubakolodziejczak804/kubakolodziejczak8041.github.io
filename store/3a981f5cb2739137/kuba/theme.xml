@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="kuba" name="Kuba's World">
+        <background id="1720.swf" name="Mcdonald's"/>
+        <background id="businside.swf" name="Bus Inside"/>
+        <background id="busoutside.swf" name="Bus Outside"/>
+<char id="pomni" name="Pomni" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
+        <tag>cat:Kuba's Characters</tag>
+        <category name="Actions">
+        <action id="stand.swf" name="Stand" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="walk.swf" name="Walk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="talk.swf" name="Talk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="angrytalk.swf" name="Angry Talk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="angrytalkcrying.swf" name="Angry Talk Crying" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="cry.swf" name="Cry" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="angry.swf" name="Angry" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="plush.swf" name="Plush" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        </category>
+	</char>
+        <char id="redbird" name="Red Bird" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
+        <tag>cat:Kuba's Characters</tag>
+        <category name="Actions">
+        <action id="stand.swf" name="Stand" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="walk.swf" name="Walk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="talk.swf" name="Talk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="cry.swf" name="Cry" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="angry.swf" name="Angry" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        </category>
+	</char>
+        <prop id="basketball.swf" name="Basketball" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+        <prop id="Sprite-PNG.png" name="Sprite" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3205" money="0" sharing="0" />
+        <prop id="171486426.png" name="Github Proile Picture" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3209" money="0" sharing="0" />
+<prop id="51N4yYY5x2L._AC_UF1000,1000_QL80_.jpg" name="Pomni Plush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0" />
+<prop id="AMB3_logo-e1717658371522-1296x926-c-center.png" name="Angry Birds 3 Movie Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0" />
+<prop id="pngtree-juicy-burgers-with-a-transparent-background-png-image_6603069.png" name="Hamburger" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3206" money="0" sharing="0" />
+<prop id="dfk5k47-92c9f960-3eb9-48d5-8ded-19ad07b78e99.png" name="Chicken Nuggets" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3207" money="0" sharing="0" />
+<prop id="mcdonald_s_fries_png_2022_by_wcwjunkbox_dfk5m5y-fullview.png" name="French Fries" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3208" money="0" sharing="0" />
+        <prop id="channels4_profile (1).jpg" name="Proile Picture" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3204" money="0" sharing="0" />
+        <sound id="Adam_Running.mp3" name="Adam Running" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="31423" money="0" sharing="0"/>
+        <sound id="New-Adam-Running.mp3" name="Adam Running 2" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="31423" money="0" sharing="0"/>
+        <sound id="tomp3.cc - Sml mario theme.mp3" name="SML Mario Theme" downloadtype="progressive" subtype="bgmusic" duration="167184" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+  <sound id="tomp3.cc - walking sound effect.mp3" name="Walking" downloadtype="progressive" subtype="soundeffect" duration="5878" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+<sound id="tomp3.cc - SpongeBob SquarePants Production Music  The Rake Hornpipe.mp3" name="The Rake Hornpipe" downloadtype="progressive" subtype="bgmusic" duration="68545" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+  <sound id="tomp3.cc - Sneaky Snitch.mp3" name="Sneaky Snitch" downloadtype="progressive" subtype="bgmusic" duration="136647" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+<sound id="tomp3.cc - Scheming Weasel Faster Kevin Macleod  Background Music HD.mp3" name="Sneaky Snitch" downloadtype="progressive" subtype="bgmusic" duration="89339" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+<sound id="tomp3.cc - Running Sound Effect.mp3" name="Running" downloadtype="progressive" subtype="soundeffect" duration="3918" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+        <sound id="New-Eve-Walking.mp3" name="Eve Walking 2" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31407" money="0" sharing="0"/>
+  <sound id="New-Eve-Running.mp3" name="Eve Running 2" downloadtype="progressive" subtype="soundeffect" duration="4598" enable="Y" is_premium="N" aid="31424" money="0" sharing="0"/>
+<sound id="New Eve Walking May 2021 (2).mp3" name="Eve Walking May 2021" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31407" money="0" sharing="0"/>
+  <sound id="New Eve Running May 2021.mp3" name="Eve Running May 2021" downloadtype="progressive" subtype="soundeffect" duration="4598" enable="Y" is_premium="N" aid="31424" money="0" sharing="0"/>
+        <sound id="New Adam Walking (May 2021).mp3" name="Adam Walking May 2021" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31406" money="0" sharing="0"/>
+<sound id="New Adam Running (May 2021).mp3" name="Adam Running May 2021" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="31423" money="0" sharing="0"/>
+<sound id="Adam_Walking.mp3" name="Adam Walking" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31406" money="0" sharing="0"/>
+<sound id="New-Adam-Walking.mp3" name="Adam Walking 2" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31406" money="0" sharing="0"/>
+  <sound id="Eve-Walking.mp3" name="Eve Walking" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31407" money="0" sharing="0"/>
+  <sound id="Eve-Running.mp3" name="Eve Running" downloadtype="progressive" subtype="soundeffect" duration="4598" enable="Y" is_premium="N" aid="31424" money="0" sharing="0"/>
+       <char id="400003001" name="Cuba" cc_theme_id="family" thumbnail_url="/stock_thumbs/400003001.png" copyable="Y">
+		<tags>family,_free,_cat:Kuba With Friends</tags>
+	</char>
+       <char id="400002002" name="Boris Anderson" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002002.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Family</tags>
+	</char>
+	<char id="400002001" name="Doris Anderson" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002001.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Family</tags>
+	</char>
+	<char id="400002011" name="Classic Caillou" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002011.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Family</tags>
+	</char>
+	<char id="400002005" name="Caillou Anderson" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002005.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Family</tags>
+	</char>
+	<char id="400002004" name="Rosie Anderson" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002004.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Family</tags>
+	</char>
+	<char id="400002008" name="Clementine Smith" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002008.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Friends</tags>
+	</char>
+	<char id="400002010" name="Dora Marquez" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002010.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Friends</tags>
+	</char>
+	<char id="400002003" name="Leo Tubbler" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002003.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Friends</tags>
+	</char>
+	<char id="400002006" name="Ann Martin" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002006.png" copyable="Y">
+		<tags>family,_free,_cat:School</tags>
+	</char>
+        <char id="53772341" name="Untitled" cc_theme_id="family" thumbnail_url="stock_thumbs/53772341.png" copyable="Y">
+		<tags>family,_free,_cat:​Specialties</tags>
+	</char>
+	<char id="53763778" name="Untitled" cc_theme_id="family" thumbnail_url="stock_thumbs/53763778.png" copyable="Y">
+		<tags>family,_free,_cat:​Specialties</tags>
+	</char>
+	<char id="53773026" enc_asset_id="PC Guy" name="Untitled" cc_theme_id="family" thumbnail_url="stock_thumbs/53773026.png" copyable="Y">
+		<tags>family,_free,_cat:​Specialties</tags>
+	</char>
+	<char id="1293816" enc_asset_id="0D0cXZKScXEM" name="Bodyguard" cc_theme_id="family" thumbnail_url="stock_thumbs/1293816.png" copyable="Y">
+		<tags>family,_free,_cat:​Specialties</tags>
+	</char>
+	<char id="53767560" enc_asset_id="0RPXnavoCPWc" name="Untitled" cc_theme_id="family" thumbnail_url="stock_thumbs/53767560.png" copyable="Y">
+		<tags>family,_free,_cat:​Specialties</tags>
+	</char>
+	<char id="400002009" name="Sonya Clementine" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002009.png" copyable="Y">
+		<tags>family,_free,_cat:School</tags>
+	</char>
+	<char id="400002007" name="Florian" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002007.png" copyable="Y">
+		<tags>family,_free,_cat:Kuba With Friends 2</tags>
+	</char>
+       <char id="400003002" name="Yugander" cc_theme_id="family" thumbnail_url="/stock_thumbs/400003002.png" copyable="Y">
+		<tags>family,_free,_cat:Kuba With Friends</tags>
+	</char>
+        <char id="400003003" name="Steven" cc_theme_id="family" thumbnail_url="/stock_thumbs/400003003.png" copyable="Y">
+		<tags>family,_free,_cat:Kuba With Friends</tags>
+	</char>
+</theme>
