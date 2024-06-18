@@ -3044,6 +3044,29 @@
   <prop id="sitting_room_carpat.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8952" money="0" sharing="0"/>
   <prop id="sitting_room_lamp.swf" name="Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8953" money="0" sharing="0"/>
   <prop id="sitting_room_plant.swf" name="Plant" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8954" money="0" sharing="0"/>
+<prop id="basketball.swf" name="Basketball" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+        <prop id="2136137 - goanimate Mouthless_Girl Vyond (1).jpg" name="NSFW GoAnimate" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3229" money="0" sharing="0" />
+<prop id="157135127.jpg" name="JaydenGoAnimate" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3230" money="0" sharing="0" />
+<prop id="2526090_6b45f.png" name="Pomni" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3231" money="0" sharing="0" />
+<prop id="GoAnimate_logo_2013.svg (1).png" name="GoAnimate Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3232" money="0" sharing="0" />
+        <prop id="Sprite-PNG.png" name="Sprite" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3205" money="0" sharing="0" />
+        <prop id="171486426.png" name="Github Proile Picture" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3209" money="0" sharing="0" />
+        <prop id="dining_room.png" name="Real Life Dinning Room" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6650" money="0" sharing="0"/>
+<prop id="basement_steps.png" name="Basement Steps" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6651" money="0" sharing="0"/>
+<prop id="bandicam_box.png" name="Bandicam Box" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3235" money="0" sharing="0" />
+<prop id="AVS_Video_Editor_logo.png" name="AVS Video Editor Icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3236" money="0" sharing="0" />
+<prop id="cryin.swf" name="Crying" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6652" money="0" sharing="0"/>
+<prop id="scream.swf" name="Screaming" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6653" money="0" sharing="0"/>
+<prop id="Bandicam-official-logo-dark.png" name="Bandicam Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3233" money="0" sharing="0" />
+<prop id="Bandicam-official-icon.png" name="Bandicam Icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3234" money="0" sharing="0" />
+<prop id="bruh.swf" name="Bruh" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6654" money="0" sharing="0"/>
+<background id="bg01.swf" name="MAIN" enable="Y" default="Y" is_premium="N" aid="6656" money="0" sharing="0"/>
+<prop id="51N4yYY5x2L._AC_UF1000,1000_QL80_.jpg" name="Pomni Plush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0" />
+<prop id="AMB3_logo-e1717658371522-1296x926-c-center.png" name="Angry Birds 3 Movie Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0" />
+<prop id="pngtree-juicy-burgers-with-a-transparent-background-png-image_6603069.png" name="Hamburger" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3206" money="0" sharing="0" />
+<prop id="dfk5k47-92c9f960-3eb9-48d5-8ded-19ad07b78e99.png" name="Chicken Nuggets" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3207" money="0" sharing="0" />
+<prop id="mcdonald_s_fries_png_2022_by_wcwjunkbox_dfk5m5y-fullview.png" name="French Fries" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3208" money="0" sharing="0" />
+        <prop id="channels4_profile (1).jpg" name="Proile Picture" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3204" money="0" sharing="0" />
   <prop id="subway_station_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8956" money="0" sharing="0"/>
   <prop id="subway_station_stair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8957" money="0" sharing="0"/>
   <prop id="subway_station_train.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="8958" money="0" sharing="0"/>
