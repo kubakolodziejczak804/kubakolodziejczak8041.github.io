@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="import" name="Imported Assets" cc_theme_id="import">
+<!--Sorry that there's no indenting, I couldn't get the import script to keep that.-->
+<!--Also, be sure to leave a blank line before <theme>, otherwise the import script breaks.-->
+<char id="327068788" name="the benson apparition" cc_theme_id="family" thumbnail_url="char-default.png" copyable="Y">
+<tags>family,every,copy,of,wrapper,offline,is,_free,software,but,is,also,_cat:personalized</tags>
+</char>
+<sound id="TTS Audio Clip.mp3" name="James Voice 1" subtype="soundeffect" duration="5825" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<prop id="171486426.jpg" name="Me" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="Adam_Walking.mp3" name="Adam Walking" subtype="soundeffect" duration="6034" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="Adam_Running.mp3" name="Adam Running" subtype="soundeffect" duration="3360" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="This_is_a_Test_433.mp3" name="Eric Voice 1" subtype="soundeffect" duration="1201" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="Eve-Walking.mp3" name="Eve Walking" subtype="soundeffect" duration="5250" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="Eve-Running.mp3" name="Eve Running" subtype="soundeffect" duration="3369" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="New Adam Walking (May 2021).mp3" name="Adam Walking (May 2021)" subtype="soundeffect" duration="6261" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="New Adam Running (May 2021).mp3" name="Adam Running (May 2021)" subtype="soundeffect" duration="3649" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="New Eve Walking May 2021 (2).mp3" name="Eve Walking May 2021" subtype="soundeffect" duration="5529" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="New Eve Running May 2021.mp3" name="Eve Running May 2021" subtype="soundeffect" duration="3649" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<sound id="tomp3.cc - Sml mario theme.mp3" name="SML Mario Theme" subtype="bgmusic" duration="167158" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+<prop id="unnamed.jpg" name="My Proile Picture" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+
+</theme>
