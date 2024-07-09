@@ -76,6 +76,18 @@
   <sound id="tomp3.cc - walking sound effect.mp3" name="Walking" downloadtype="progressive" subtype="soundeffect" duration="5878" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
 <sound id="tomp3.cc - SpongeBob SquarePants Production Music  The Rake Hornpipe.mp3" name="The Rake Hornpipe" downloadtype="progressive" subtype="bgmusic" duration="68545" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
   <sound id="tomp3.cc - Sneaky Snitch.mp3" name="Sneaky Snitch" downloadtype="progressive" subtype="bgmusic" duration="136647" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+  <sound id="Bob Walking (Credit to Fartnoise9).mp3" name="Bob Walking" downloadtype="progressive" subtype="soundeffect" duration="5721" enable="Y" is_premium="N" aid="31420" money="0" sharing="0"/>
+<sound id="Bob Running.mp3" name="Bob Running" downloadtype="progressive" subtype="soundeffect" duration="4206" enable="Y" is_premium="N" aid="31421" money="0" sharing="0"/>
+<sound id="Rocky Walking.mp3" name="Rocky Walking" downloadtype="progressive" subtype="soundeffect" duration="4545" enable="Y" is_premium="N" aid="31425" money="0" sharing="0"/>
+<sound id="Rocky Running.mp3" name="Rocky Running" downloadtype="progressive" subtype="soundeffect" duration="3709" enable="Y" is_premium="N" aid="31434" money="0" sharing="0"/>
+<sound id="New Rocky Walking.mp3" name="Rocky Walking 2" downloadtype="progressive" subtype="soundeffect" duration="4545" enable="Y" is_premium="N" aid="31425" money="0" sharing="0"/>
+<sound id="New Rocky Running.mp3" name="Rocky Running 2" downloadtype="progressive" subtype="soundeffect" duration="3709" enable="Y" is_premium="N" aid="31434" money="0" sharing="0"/>
+<sound id="New Rocky Walking (May 2021).mp3" name="Rocky Walking (May 2021)" downloadtype="progressive" subtype="soundeffect" duration="4545" enable="Y" is_premium="N" aid="31425" money="0" sharing="0"/>
+<sound id="New Rocky Running (May 2021).mp3" name="Rocky Running (May 2021)" downloadtype="progressive" subtype="soundeffect" duration="3709" enable="Y" is_premium="N" aid="31434" money="0" sharing="0"/>
+<sound id="New Bob Walking.mp3" name="Bob Walking 2" downloadtype="progressive" subtype="soundeffect" duration="5721" enable="Y" is_premium="N" aid="31420" money="0" sharing="0"/>
+<sound id="New Bob Running.mp3" name="Bob Running 2" downloadtype="progressive" subtype="soundeffect" duration="4206" enable="Y" is_premium="N" aid="31421" money="0" sharing="0"/>
+<sound id="New Bob Walking (May 2021).mp3" name="Bob Walking (May 2021)" downloadtype="progressive" subtype="soundeffect" duration="5721" enable="Y" is_premium="N" aid="31420" money="0" sharing="0"/>
+<sound id="New Bob Running (May 2021).mp3" name="Bob Running (May 2021)" downloadtype="progressive" subtype="soundeffect" duration="4206" enable="Y" is_premium="N" aid="31421" money="0" sharing="0"/>
 <sound id="tomp3.cc - Scheming Weasel Faster Kevin Macleod  Background Music HD.mp3" name="Sneaky Snitch" downloadtype="progressive" subtype="bgmusic" duration="89339" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
 <sound id="tomp3.cc - Running Sound Effect.mp3" name="Running" downloadtype="progressive" subtype="soundeffect" duration="3918" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
         <sound id="New-Eve-Walking.mp3" name="Eve Walking 2" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31407" money="0" sharing="0"/>
