@@ -19189,6 +19189,18 @@
   <sound id="New-Adam-Walking.mp3" name="Adam Walking 2" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31406" money="0" sharing="0"/>
   <sound id="Eve-Walking.mp3" name="Eve Walking" downloadtype="progressive" subtype="soundeffect" duration="6766" enable="Y" is_premium="N" aid="31407" money="0" sharing="0"/>
   <sound id="Eve-Running.mp3" name="Eve Running" downloadtype="progressive" subtype="soundeffect" duration="4598" enable="Y" is_premium="N" aid="31424" money="0" sharing="0"/>
+  <sound id="Bob Walking (Credit to Fartnoise9).mp3" name="Bob Walking" downloadtype="progressive" subtype="soundeffect" duration="5721" enable="Y" is_premium="N" aid="31420" money="0" sharing="0"/>
+<sound id="Bob Running.mp3" name="Bob Running" downloadtype="progressive" subtype="soundeffect" duration="4206" enable="Y" is_premium="N" aid="31421" money="0" sharing="0"/>
+<sound id="Rocky Walking.mp3" name="Rocky Walking" downloadtype="progressive" subtype="soundeffect" duration="4545" enable="Y" is_premium="N" aid="31425" money="0" sharing="0"/>
+<sound id="Rocky Running.mp3" name="Rocky Running" downloadtype="progressive" subtype="soundeffect" duration="3709" enable="Y" is_premium="N" aid="31434" money="0" sharing="0"/>
+<sound id="New Rocky Walking.mp3" name="Rocky Walking 2" downloadtype="progressive" subtype="soundeffect" duration="4545" enable="Y" is_premium="N" aid="31425" money="0" sharing="0"/>
+<sound id="New Rocky Running.mp3" name="Rocky Running 2" downloadtype="progressive" subtype="soundeffect" duration="3709" enable="Y" is_premium="N" aid="31434" money="0" sharing="0"/>
+<sound id="New Rocky Walking (May 2021).mp3" name="Rocky Walking (May 2021)" downloadtype="progressive" subtype="soundeffect" duration="4545" enable="Y" is_premium="N" aid="31425" money="0" sharing="0"/>
+<sound id="New Rocky Running (May 2021).mp3" name="Rocky Running (May 2021)" downloadtype="progressive" subtype="soundeffect" duration="3709" enable="Y" is_premium="N" aid="31434" money="0" sharing="0"/>
+<sound id="New Bob Walking.mp3" name="Bob Walking 2" downloadtype="progressive" subtype="soundeffect" duration="5721" enable="Y" is_premium="N" aid="31420" money="0" sharing="0"/>
+<sound id="New Bob Running.mp3" name="Bob Running 2" downloadtype="progressive" subtype="soundeffect" duration="4206" enable="Y" is_premium="N" aid="31421" money="0" sharing="0"/>
+<sound id="New Bob Walking (May 2021).mp3" name="Bob Walking (May 2021)" downloadtype="progressive" subtype="soundeffect" duration="5721" enable="Y" is_premium="N" aid="31420" money="0" sharing="0"/>
+<sound id="New Bob Running (May 2021).mp3" name="Bob Running (May 2021)" downloadtype="progressive" subtype="soundeffect" duration="4206" enable="Y" is_premium="N" aid="31421" money="0" sharing="0"/>
   <sound id="tomp3.cc - Beating Sound Effects.mp3" name="Beating Up" downloadtype="progressive" subtype="soundeffect" duration="13104" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
   <sound id="tomp3.cc - Funny vomit sound effect Reuploaded.mp3" name="Vomiting" downloadtype="progressive" subtype="soundeffect" duration="3762" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
   <sound id="tomp3.cc - Vomiting sound effect.mp3" name="Vomiting 2" downloadtype="progressive" subtype="soundeffect" duration="9613" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
