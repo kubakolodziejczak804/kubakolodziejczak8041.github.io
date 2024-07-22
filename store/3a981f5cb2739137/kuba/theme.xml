@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="kuba" name="Kuba's World">
         <background id="1720.swf" name="Mcdonald's"/>
+        <background id="kubabackground.swf" name="Kuba's Background"/>
+        <background id="busstop.swf" name="Bus Stop"/>
         <background id="businside.swf" name="Bus Inside"/>
         <background id="busoutside.swf" name="Bus Outside"/>
 <char id="pomni" name="Pomni" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
@@ -27,6 +29,51 @@
         <action id="plush.swf" name="Plush" loop="Y" totalframe="1" enable="Y" aid="60"/>
         </category>
 	</char>
+        <char id="pomni_clone" name="(NEW) Pomni" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
+        <tag>cat:Kuba's Characters</tag>
+        <category name="Actions">
+        <action id="stand.swf" name="Stand" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="plush.swf" name="Plush" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        </category>
+	</char>
+        <char id="reallifekuba_old" name="Real Life Kuba (Old)" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
+        <tag>cat:Kuba's Characters</tag>
+        <category name="Actions">
+        <action id="stand.swf" name="Stand" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="walk.swf" name="Walk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="sad.swf" name="Sad" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="angry.swf" name="Angry" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="cry.swf" name="Cry" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="talk.swf" name="Talk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        </category>
+	</char>
+        <char id="reallifekuba" name="Real Life Kuba" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
+        <tag>cat:Kuba's Characters</tag>
+        <category name="Actions">
+        <action id="stand.swf" name="Stand" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="walk.swf" name="Walk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="sad.swf" name="Sad" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="angry.swf" name="Angry" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="twomiddlefinger.swf" name="Two Middle Finger" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="middlefinger.swf" name="Middle Finger" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="cry.swf" name="Cry" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="talk.swf" name="Talk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        </category>
+	</char>
+        <char id="mpk" name="MPK" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
+        <tag>cat:MPK's Characters</tag>
+        <category name="Actions">
+        <action id="stand.swf" name="Stand" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="walk.swf" name="Walk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        </category>
+	</char>
+        <char id="mpk_new" name="MPK Autobus" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
+        <tag>cat:MPK's Characters</tag>
+        <category name="Actions">
+        <action id="stand.swf" name="Stand" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="walk.swf" name="Walk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        </category>
+	</char>
         <char id="me" name="Me" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
         <tag>cat:Kuba's Characters</tag>
         <category name="Actions">
@@ -47,7 +94,27 @@
         <action id="angry.swf" name="Angry" loop="Y" totalframe="1" enable="Y" aid="60"/>
         </category>
 	</char>
+        <prop id="msp_movie_poster" name="Movie Poster" holdable="0" placeable="1" wearable="0" facing="left" thumb="DM4_Tsr1Sht17_RGB_2SM.jpg" enable="Y" is_premium="Y" aid="11350" money="0" sharing="0">
+    <state id="DM4_Tsr1Sht17_RGB_2SM.jpg" name="DM4" enable="Y" default="Y"/>
+    <state id="OIP (5).jpg" name="Inside Out 2" enable="Y"/>
+    <state id="OIP (6).jpg" name="The Kingdom Of The Planet Of The Apes" enable="Y"/>
+    <state id="OIP (7).jpg" name="Kung Fu Panda 4" enable="Y"/>
+    <state id="OIP (8).jpg" name="The Garfield Movie" enable="Y"/>
+    <state id="OIF.jpg" name="TWISTERS" enable="Y"/>
+    <state id="R.jpg" name="Wonka Movie" enable="Y"/>
+  </prop>
         <prop id="basketball.swf" name="Basketball" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+        <prop id="a72bxhuy.png" name="Sony Vegas 14.0 Icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+	<prop id="R (4).png" name="Google Chrome Icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+	<prop id="R (5).png" name="Erm... What The Sigma" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+<prop id="OIP (10).jpg" name="Oi Oi Oi" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+<prop id="5adpyvt9.png" name="YouTube Terminated" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+<prop id="Wrapper Online Diamond Logo.png" name="Wrapper Online Diamond (Logo 2024)" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+<prop id="04i4r53s.png" name="YouTube Terminated Appeal" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+<prop id="rmclcdvd.png" name="YouTube Terminated Message" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+<prop id="GoAnimate Wrapper Logo.png" name="GoAnimate Wrapper Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+<prop id="bandicam 2024-07-22 17-37-37-010.jpg" name="My New PFP" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+<prop id="z0s41f5p.png" name="Sony Vegas 17.0 Icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
         <prop id="2136137 - goanimate Mouthless_Girl Vyond (1).jpg" name="NSFW GoAnimate" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3229" money="0" sharing="0" />
 <prop id="157135127.jpg" name="JaydenGoAnimate" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3230" money="0" sharing="0" />
 <prop id="2526090_6b45f.png" name="Pomni" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3231" money="0" sharing="0" />
@@ -58,12 +125,13 @@
 <prop id="basement_steps.png" name="Basement Steps" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6651" money="0" sharing="0"/>
 <prop id="bandicam_box.png" name="Bandicam Box" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3235" money="0" sharing="0" />
 <prop id="AVS_Video_Editor_logo.png" name="AVS Video Editor Icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3236" money="0" sharing="0" />
+<prop id="Wrapper_offline_2023.png" name="Wrapper Offline Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3233" money="0" sharing="0" />
 <prop id="cryin.swf" name="Crying" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6652" money="0" sharing="0"/>
 <prop id="scream.swf" name="Screaming" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6653" money="0" sharing="0"/>
 <prop id="Bandicam-official-logo-dark.png" name="Bandicam Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3233" money="0" sharing="0" />
+<prop id="Kuba Kolodziejczak.jpg" name="Kuba Kolodziejczak" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3233" money="0" sharing="0" />
 <prop id="Bandicam-official-icon.png" name="Bandicam Icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3234" money="0" sharing="0" />
 <prop id="bruh.swf" name="Bruh" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6654" money="0" sharing="0"/>
-<background id="bg01.swf" name="MAIN" enable="Y" default="Y" is_premium="N" aid="6656" money="0" sharing="0"/>
 <prop id="51N4yYY5x2L._AC_UF1000,1000_QL80_.jpg" name="Pomni Plush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0" />
 <prop id="AMB3_logo-e1717658371522-1296x926-c-center.png" name="Angry Birds 3 Movie Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0" />
 <prop id="pngtree-juicy-burgers-with-a-transparent-background-png-image_6603069.png" name="Hamburger" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3206" money="0" sharing="0" />
@@ -71,6 +139,7 @@
 <prop id="mcdonald_s_fries_png_2022_by_wcwjunkbox_dfk5m5y-fullview.png" name="French Fries" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3208" money="0" sharing="0" />
         <prop id="channels4_profile (1).jpg" name="Proile Picture" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3204" money="0" sharing="0" />
         <sound id="Adam_Running.mp3" name="Adam Running" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="31423" money="0" sharing="0"/>
+        <sound id="INSIDE OUT 2 Audience Reaction Audio  June 15 2024.mp3" name="INSIDE OUT 2 Audience Reaction Audio" downloadtype="progressive" subtype="soundeffect" duration="190119" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
         <sound id="New-Adam-Running.mp3" name="Adam Running 2" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="31423" money="0" sharing="0"/>
         <sound id="tomp3.cc - Sml mario theme.mp3" name="SML Mario Theme" downloadtype="progressive" subtype="bgmusic" duration="167184" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
   <sound id="tomp3.cc - walking sound effect.mp3" name="Walking" downloadtype="progressive" subtype="soundeffect" duration="5878" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
