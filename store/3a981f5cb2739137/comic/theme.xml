@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="comic" name="Comic Cartoons">
+	<char id="lincoln loud" name="Lincoln Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+		<action id="happy.swf" name="Happy" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+                <action id="summer outfit.swf" name="Summer Outfit" loop="Y" totalframe="50" enable="Y" aid="8266"/>
+                <action id="spy outfit.swf" name="Spy Outfit" loop="Y" totalframe="50" enable="Y" aid="8267"/>
+                <action id="pool outfit.swf" name="Pool Outfit" loop="Y" totalframe="50" enable="Y" aid="8268"/>
+                <action id="magic outfit.swf" name="Magic Outfit" loop="Y" totalframe="50" enable="Y" aid="8269"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8270"/>
+                <action id="ace outfit.swf" name="Ace Outfit" loop="Y" totalframe="50" enable="Y" aid="8271"/>
+        </char>
+        <char id="lori loud" name="Lori Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+		<action id="happy.swf" name="Happy" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="crying.swf" name="Crying" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="pool outfit.swf" name="Pool Outfit" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+                <action id="in charge outfit.swf" name="In Charge Outfit" loop="Y" totalframe="50" enable="Y" aid="8266"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8267"/>
+                <action id="golf outfit.swf" name="Golf Outfit" loop="Y" totalframe="50" enable="Y" aid="8268"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8269"/>
+        </char>
+        <char id="leni loud" name="Leni Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+		<action id="happy.swf" name="Happy" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="crying.swf" name="Crying" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8266"/>
+        </char>
+        <char id="luna loud" name="Luna Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+		<action id="jamming.swf" name="Jamming" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8266"/>
+        </char>
+        <char id="luan loud" name="Luan Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+		<action id="chef.swf" name="Chef" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="crying.swf" name="Crying" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8266"/>
+                <action id="as a mime outfit.swf" name="As A Mime Outfit" loop="Y" totalframe="50" enable="Y" aid="8267"/>
+                <action id="clown outfit.swf" name="Clown Outfit" loop="Y" totalframe="50" enable="Y" aid="8268"/>
+        </char>
+        <char id="lyyn loud" name="Lyyn Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="football outfit.swf" name="Football Outfit" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="baseball outfit.swf" name="Baseball Outfit" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+        </char>
+        <char id="lucy loud" name="Lucy Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="madame outfit.swf" name="Madame Outfit" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="crying.swf" name="Crying" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+                <action id="happy.swf" name="Happy" loop="Y" totalframe="50" enable="Y" aid="8266"/>
+                <action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8267"/>
+                <action id="pink dress.swf" name="Pink Dress" loop="Y" totalframe="50" enable="Y" aid="8268"/>
+        </char>
+        <char id="lana loud" name="Lana Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="tools outfit.swf" name="Tools Outfit" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="crying.swf" name="Crying" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+                <action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8266"/>
+        </char>
+        <char id="lola loud" name="Lola Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="rubish outfit.swf" name="Rublish Outfit" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="crying.swf" name="Crying" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+                <action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8266"/>
+                <action id="dancing outfit.swf" name="Dancing Outfit" loop="Y" totalframe="50" enable="Y" aid="8267"/>
+                <action id="being lucy.swf" name="Being Lucy" loop="Y" totalframe="50" enable="Y" aid="8268"/>
+        </char>
+        <char id="lisa loud" name="Lisa Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="tuxedo outfit.swf" name="Rublish Outfit" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+        </char>
+        <char id="lily loud" name="Lily Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="winter outfit.swf" name="Winter Outfit" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="season 5 outfit.swf" name="Season 5 Outfit" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="crying.swf" name="Crying" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+        </char>
+        <char id="lyyn loud sr" name="Lynn Loud Sr" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="robe outfit.swf" name="Robe Outfit" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="chef.swf" name="Chef" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+                <action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8265"/>
+        </char>
+        <char id="rita loud" name="Rita Loud" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="50" enable="Y" aid="8260"/>
+                <action id="walk.swf" name="Walk" loop="Y" totalframe="50" enable="Y" aid="8261"/>
+                <action id="pajamas outfit.swf" name="Pajamas Outfit" loop="Y" totalframe="50" enable="Y" aid="8262"/>
+                <action id="robe outfit.swf" name="Robe Outfit" loop="Y" totalframe="50" enable="Y" aid="8263"/>
+                <action id="scrubs outfit.swf" name="Scrubs Outfit" loop="Y" totalframe="50" enable="Y" aid="8264"/>
+        </char>
+        <background id="house outside.swf" name="House Outside" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="house outside morning.swf" name="House Outside Morning" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="house outside night.swf" name="House Outside Night" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="house outside christmas.swf" name="House Outside Christmas" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="living room.swf" name="Living room" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="lincoln loud room.swf" name="Lincoln Loud Room" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="lori and leni room.swf" name="Lori And Leni Room" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="luna and luan room.swf" name="Luna And Luan Room" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="lyyn and lucy room.swf" name="Lyyn and Lucy Room" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="lana and lola room.swf" name="Lana and Lola Room" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="lisa and lily room.swf" name="Lisa And Lily Room" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <background id="bathrooms.swf" name="Bathrooms" enable="Y" default="Y" is_premium="N" aid="8305" money="0" sharing="0"/>
+        <prop id="bun bun.swf" name="Bun Bun" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8240" money="0" sharing="0"/>
+        <prop id="tanya.swf" name="Tanya" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8240" money="0" sharing="0"/>
+        <prop id="edwin.swf" name="Edwin" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8240" money="0" sharing="0"/>
+        <prop id="cocounts.swf" name="Cocounts" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8240" money="0" sharing="0"/>
+        <prop id="vazilla.swf" name="Vazilla" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8240" money="0" sharing="0"/>
+        <prop id="todd.swf" name="Todd" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8240" money="0" sharing="0"/>
+</theme>
