@@ -2,6 +2,7 @@
 <theme id="kuba" name="Kuba's World">
         <background id="1720.swf" name="Mcdonald's"/>
         <background id="kubabackground.swf" name="Kuba's Background"/>
+        <background id="1721.swf" name="Pomni's Restaurant"/>
         <background id="busstop.swf" name="Bus Stop"/>
         <background id="businside.swf" name="Bus Inside"/>
         <background id="busoutside.swf" name="Bus Outside"/>
@@ -114,6 +115,7 @@
 <prop id="rmclcdvd.png" name="YouTube Terminated Message" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
 <prop id="GoAnimate Wrapper Logo.png" name="GoAnimate Wrapper Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
 <prop id="GrimaceShake.jpg" name="Grimace Shake" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
+<prop id="grimace_shake__png__by_thetoonsofjosh_dg15dwf-fullview.png" name="Grimace Shake" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
 <prop id="bandicam 2024-07-22 17-37-37-010.jpg" name="My New PFP" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
 <prop id="z0s41f5p.png" name="Sony Vegas 17.0 Icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3203" money="0" sharing="0" />
         <prop id="2136137 - goanimate Mouthless_Girl Vyond (1).jpg" name="NSFW GoAnimate" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3229" money="0" sharing="0" />
