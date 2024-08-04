@@ -19,6 +19,13 @@
         <action id="plush.swf" name="Plush" loop="Y" totalframe="1" enable="Y" aid="60"/>
         </category>
 	</char>
+        <char id="weegee" name="Weegee" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
+        <tag>cat:Kuba's Characters</tag>
+        <category name="Actions">
+        <action id="stand.swf" name="Stand" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        <action id="walk.swf" name="Walk" loop="Y" totalframe="1" enable="Y" aid="60"/>
+        </category>
+	</char>
         <char id="pomni_old" name="Pomni (Old)" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
         <tag>cat:Kuba's Characters</tag>
         <category name="Actions">
@@ -134,13 +141,18 @@
 <prop id="bruh.swf" name="Bruh" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6654" money="0" sharing="0"/>
 <prop id="51N4yYY5x2L._AC_UF1000,1000_QL80_.jpg" name="Pomni Plush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0" />
 <prop id="AMB3_logo-e1717658371522-1296x926-c-center.png" name="Angry Birds 3 Movie Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0" />
+<prop id="Kuba Kolodziejczak Alt Account.jpg" name="Kuba Alt" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0" />
+<prop id="GoAnimate Wrapper Logo.png" name="GoAnimate Wrapper Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0" />
 <prop id="pngtree-juicy-burgers-with-a-transparent-background-png-image_6603069.png" name="Hamburger" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3206" money="0" sharing="0" />
 <prop id="dfk5k47-92c9f960-3eb9-48d5-8ded-19ad07b78e99.png" name="Chicken Nuggets" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3207" money="0" sharing="0" />
 <prop id="mcdonald_s_fries_png_2022_by_wcwjunkbox_dfk5m5y-fullview.png" name="French Fries" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3208" money="0" sharing="0" />
         <prop id="channels4_profile (1).jpg" name="Proile Picture" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3204" money="0" sharing="0" />
         <sound id="Adam_Running.mp3" name="Adam Running" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="31423" money="0" sharing="0"/>
-        <sound id="y2mate.com - Klasky Csupo Robot Logo_360p.mp3" name="Klasky Csupo Robot Logo" downloadtype="progressive" subtype="soundeffect" duration="5805" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
-        <sound id="y2mate.com - Klasky Csupo Robot Logo_360p (1).mp3" name="Klasky Csupo Robot Logo (Low)" downloadtype="progressive" subtype="soundeffect" duration="5805" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+        <sound id="Slap Oh.mp3" name="Slap Oh" downloadtype="progressive" subtype="soundeffect" duration="1620" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+<sound id="Baby Crying Sound Effect (3).mp3" name="Baby Crying (Short)" downloadtype="progressive" subtype="soundeffect" duration="10136" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+<sound id="Weegee.mp3" name="WEEGEE" downloadtype="progressive" subtype="soundeffect" duration="1128" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+<sound id="Baby Crying Sound Effect (1) (1).mp3" name="Baby Crying (Full)" downloadtype="progressive" subtype="soundeffect" duration="38583" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
+<sound id="Baby Crying Sound Effect (2) (1).mp3" name="Baby Crying 2" downloadtype="progressive" subtype="soundeffect" duration="21342" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
         <sound id="INSIDE OUT 2 Audience Reaction Audio  June 15 2024.mp3" name="INSIDE OUT 2 Audience Reaction Audio" downloadtype="progressive" subtype="soundeffect" duration="190119" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
         <sound id="New-Adam-Running.mp3" name="Adam Running 2" downloadtype="progressive" subtype="soundeffect" duration="3500" enable="Y" is_premium="N" aid="31423" money="0" sharing="0"/>
         <sound id="tomp3.cc - Sml mario theme.mp3" name="SML Mario Theme" downloadtype="progressive" subtype="bgmusic" duration="167184" enable="Y" is_premium="N" aid="0" money="0" sharing="0"/>
